@@ -1,0 +1,33 @@
+{
+  "name": "@alexghr/game-of-life",
+  "version": "0.1.0",
+  "description": "create an app to consume rust-generated wasm packages",
+  "main": "dist/main.bootstrap.js",
+  "author": "Alex Gherghisan <alexghr@users.noreply.github.com>",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "lint": "tslint -p ./",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "rust",
+    "webpack"
+  ],
+  "dependencies": {
+    "@alexghr/game-of-life-wasm": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.5.2",
+    "typescript": "^3.0.0",
+    "tslint": "^5.11.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

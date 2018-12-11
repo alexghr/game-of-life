@@ -1,0 +1,11 @@
+{
+  "name": "@alexghr/game-of-life-ws",
+  "version": "0.1.0",
+  "author": "Alex Gherghisan <alexghr@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./pkg",
+    "./www"
+  ]
+}
